@@ -3,6 +3,12 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
+#trying
+import os
+os.environ['TF_USE_LEGACY_KERAS'] = '0'
+import tensorflow as tf
+# 
+
 # Load model
 model = tf.keras.models.load_model("plant_disease_model.keras")
 
